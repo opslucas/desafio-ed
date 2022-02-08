@@ -1,0 +1,31 @@
+.card{
+  border-radius: 60px;
+  background: rgb(248, 248, 248);
+  box-shadow: 10px 15px 28px 1px rgba(0, 0, 0, 0.19);
+}
+
+label#label{
+  padding-top: 12px;
+  font-size: 16px;
+  text-align: center;
+}
+
+#bora{
+  font-size: 15px;
+}
+
+label#label:focus + #bora{
+  margin-top: 0px;
+  top: -50%;
+  z-index: 2;
+}
+.btn-confirmar{
+  color: rgb(251, 251, 251);
+  background: rgb(206, 178, 255);
+  font-weight: bold;
+}
+
+.btn-confirmar i:hover {
+  color: #ffffff;
+  transition: 0.3s;
+}
